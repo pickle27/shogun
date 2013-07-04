@@ -1,6 +1,4 @@
-#ifdef HAVE_EIGEN3
-
-#include <shogun/mathematics/ajd/JADiag.h>
+#include "JADiag.h"
 
 #include <shogun/base/init.h>
 #include <shogun/lib/common.h>
@@ -219,4 +217,3 @@ void jadiagw(double c[], double w[], int *ptn, int *ptm, double a[],
 
 	return;
 }
-#endif //HAVE_EIGEN3
